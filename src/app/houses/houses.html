@@ -1,0 +1,32 @@
+<div class="houses-container">
+  <div class="search-section">
+    <div class="search-box">
+      <label for="city-select">Filter by City:</label>
+      <select id="city-select" [(ngModel)]="selectedCity" class="city-select">
+        <option value="">-- All Cities --</option>
+        <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
+      </select>
+      <button class="search-btn" (click)="onSearch()">Search</button>
+      <button class="reset-btn" (click)="resetFilter()">Reset</button>
+    </div>
+  </div>
+
+  <div class="houses-grid">
+    <div *ngFor="let house of filteredHouses" class="house-card">
+      <div class="card-image">
+        <img [src]="house.image" [alt]="house.name" />
+      </div>
+      <div class="card-content">
+        <h3 class="house-name">{{ house.name }}</h3>
+        <p class="house-city">
+          <span class="city-icon">📍</span>{{ house.city }}
+        </p>
+        <a [href]="house.learnMoreUrl" class="learn-more-btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="filteredHouses.length === 0" class="no-results">
+    <p>No houses found for the selected city.</p>
+  </div>
+</div>

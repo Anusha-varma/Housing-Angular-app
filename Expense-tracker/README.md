@@ -1,9 +1,4 @@
-Here is a **clean, professional README.md** tailored exactly to **your Farmhouse Expense Tracker (Angular + JSON Server)** project.
-You can **copy–paste this directly** into `README.md`.
 
----
-
-```md
 # 🏡 Farmhouse Finance Dashboard
 
 A web-based **Expense & Income Tracker** built using **Angular (Standalone Components)** and **JSON Server** to manage and analyze finances for multiple farmhouses.
@@ -172,13 +167,3 @@ This project is for **learning and academic purposes**.
 
 ```
 
----
-
-If you want, I can also:
-- Add **screenshots section**
-- Write **resume-ready project description**
-- Prepare **GitHub repo description + tags**
-- Convert this into **internship project documentation**
-
-Just tell me 👍
-```

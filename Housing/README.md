@@ -1,59 +1,50 @@
-# Todo
+## Housing Listing Application – Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.0.
+This is a simple frontend Angular application that displays a list of houses in card format.
+Users can search for houses by city using a search bar at the top.
 
-## Development server
+## Screenshots
 
-To start a local development server, run:
+### Housing Cards Page
 
-```bash
-ng serve
-```
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3133461b-ad69-40d3-a415-1653cfa33735" />
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Features
 
-## Code scaffolding
+* Display houses using card layout
+* Search bar to filter houses by city
+* Real-time filtering as user types
+* Clean and responsive UI
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Tech Stack
 
-```bash
-ng generate component component-name
-```
+* Angular
+* TypeScript
+* HTML and CSS
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## How to Run
 
-```bash
-ng generate --help
-```
+1. Install dependencies
 
-## Building
+   ```bash
+   npm install
+   ```
 
-To build the project run:
+2. Run the Angular application
 
-```bash
-ng build
-```
+   ```bash
+   ng serve
+   ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+3. Open in browser
 
-## Running unit tests
+   ```
+   http://localhost:4200
+   ```
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
 
-```bash
-ng test
-```
+## Notes
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+* House data is handled locally in the frontend
+* No backend or database is used
+* Search functionality filters houses based on city name
